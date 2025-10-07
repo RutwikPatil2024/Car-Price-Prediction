@@ -27,10 +27,6 @@ The model was trained and tested using data collected during an internship at **
    - A simple **Flask-based web app (`app.py`)** allows users to enter car details and get an estimated price instantly.
 
 ---
-
-## 📂 Folder Structure
-
-
 ## 📂 Folder Structure
 ```
 CarPricePrediction/
