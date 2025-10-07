@@ -1,0 +1,48 @@
+body {
+    background-image: url("/static/home/blackbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;  /* Ensures full height */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@keyframes floatUpDown {
+    0%   { transform: translate(-50%, -40%); }
+    50%  { transform: translate(-50%, -63%); }  /* Move up slightly */
+    100% { transform: translate(-50%, -40%); }
+}
+
+.floating-btn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 15px 40px;
+    
+    background: #0ff;
+    border: 5px;
+    border-radius: 12px;
+    
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 999;
+
+    box-shadow: 0 0 10px #0ff, 0 0 15px #0ff, 0 0 20px #0ff;
+
+    animation: floatUpDown 2s ease-in-out infinite;
+    transition: 0.3s ease;
+}
+
+.floating-btn:hover {
+    background: #00f6ff;
+    /* box-shadow: 0 0 20px #00f6ff, 0 0 40px #00f6ff, 0 0 50px #00f6ff; */
+    animation-play-state: paused; /* Pause motion on hover */
+}
+
+
+
+
