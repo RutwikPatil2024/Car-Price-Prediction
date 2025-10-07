@@ -29,22 +29,26 @@ The model was trained and tested using data collected during an internship at **
 ---
 
 ## 📂 Folder Structure
+
+
+## 📂 Folder Structure
+
 CarPricePrediction/
 │
-├── app.py # Flask backend script
-├── templates/ # HTML templates for frontend
-├── static/ # CSS, JS, and images
+├── app.py                   # Flask backend script
+├── templates/               # HTML templates for frontend
+├── static/                  # CSS, JS, and images
 │
 ├── CarPricePrediction.ipynb # Model training notebook
-├── ProjectWork.ipynb # Extended project analysis
+├── ProjectWork.ipynb        # Extended project analysis
 │
-├── clean_data.xlsx # Cleaned dataset
-├── Data.xlsx # Original dataset
+├── clean_data.xlsx          # Cleaned dataset
+├── Data.xlsx                # Original dataset
 │
-├── MLR.pkl # Trained ML model file
+├── MLR.pkl                  # Trained ML model file
 │
-├── .gitignore # Ignored files for GitHub
-└── README.md # Project documentation
+├── .gitignore               # Ignored files for GitHub
+└── README.md                # Project documentation
 
 ---
 
