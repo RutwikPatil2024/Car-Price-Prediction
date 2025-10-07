@@ -46,13 +46,13 @@ CarPricePrediction/
 ├── .gitignore # Ignored files for GitHub
 └── README.md # Project documentation
 
-
 ---
 
 ## ⚙️ Installation and Setup
 
-### Step 1️⃣ – Clone the Repository
+### Steps 
 ```bash
+Step 1️⃣ – Clone the Repository
 git clone https://github.com/<your-username>/CarPricePrediction.git
 cd CarPricePrediction
 
